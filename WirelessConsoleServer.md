@@ -5,7 +5,7 @@ Sebagai _network engineer_ pastinya anda mengenal kabel _console_ untuk melakuka
 ![rollover cable](images/console.jpg)
 ![usb-to-serial](images/usb2serial.jpg)
 
-Kadang-kadang saya tidak suka duduk dengan waktu yang lama di depan perangkat untuk melakukan konfigurasi. Saya lebih suka melakukannya di tempat yang nyaman dan penuh dengan cemilan. Ada beberapa _gadget_ yang bisa mengakomodasi kebutuhan ini, misalnya Airconsole, dengan harga yang cukup mahal. Harga yang cukup mahal ini membuat saya mencari alternatif lain yang akhirnya jatuh ke _mini router_ yang mendukung OpenWRT.
+Kadang-kadang saya tidak suka duduk dengan waktu yang lama di depan perangkat untuk melakukan konfigurasi. Saya lebih suka melakukannya di tempat yang nyaman dan penuh dengan cemilan. Ada beberapa _gadget_ yang bisa mengakomodasi kebutuhan ini, misalnya **Airconsole**, dengan harga yang cukup mahal. Harga yang cukup mahal ini membuat saya mencari alternatif lain yang akhirnya jatuh ke _mini router_ yang mendukung OpenWRT.
 
 **Catatan**: tutorial ini tidak akan menjelaskan instalasi OpenWRT di _mini router_
 
