@@ -19,7 +19,7 @@ Beberapa model _switch_ atau _router_ mempunyai _port_ USB, _power_ dari _port_ 
 
 ## _Hardware_
 
-Pada awalnya pilihan saya jatuh ke TP-Link MR3020, tapi sejak versi _hardware_ 3.0 (pada saat itu OpenWRT belum mendukung) saya memilih GL.inet AR150. Saat ini OpenWRT sudah mendukung MR3020 versi 3.0, tapi sudah tidak dikembangkan lagi dengan _build_ terakhir versi [19.07][1]. Bila anda tidak peduli dengan versi terakhir, MR3020 bisa digunakan sebagai pilihan karena lebih murah dibanding GL.inet.
+Pada awalnya pilihan saya jatuh ke TP-Link MR3020, tapi sejak versi _hardware_ 3.0 (pada saat itu OpenWRT belum mendukung) saya memilih GL.inet AR150. Saat ini OpenWRT sudah mendukung MR3020 versi 3.0, tapi sudah tidak dikembangkan lagi dengan _build_ terakhir versi [19.07][1]. Bila anda tidak perlu menggunakan versi terbaru untuk ke depannya, MR3020 bisa digunakan sebagai pilihan karena lebih murah dibanding GL.inet.
 
 ![TP-Link MR3020](images/mr3020.jpg)
 
