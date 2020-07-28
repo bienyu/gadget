@@ -57,8 +57,11 @@ Konfigurasi dilakukan di _file_ **/etc/ser2net.conf**, silakan gunakan _editor_ 
 ```
 
 **BANNER** = digunakan untuk menampilkan pesan ketika terhubung ke console dengan nama `banner1`
+
 **2001** = _port_
+
 **/dev/ttyXXXY** = _port serial_, bisa dicek dengan perintah `ls /dev/tty*`
+
 **9600** = _baud rate_
 
 Untuk menjalankan ser2net setiap kali _booting mini router_, _edit file_ `/etc/rc.local` dan tambahkan `ser2net` di baris sebelum `exit 0`.
