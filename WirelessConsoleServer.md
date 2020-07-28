@@ -12,7 +12,7 @@ Kadang-kadang saya tidak suka duduk dengan waktu yang lama di depan perangkat un
 
 ## Koneksi
 
-Beberapa model _switch_ atau _router_ mempunyai _port_ USB, _power_ dari _port_ ini dapat digunakan untuk menghidupkan _mini router_ dan _port_ USB dari _mini router_ dikoneksikan ke kabel _usb2serial_ dan kabel _console. Apabila tidak ada _port_ USB, maka _power bank_ dapat digunakan untuk menghidupkan _mini router_.
+Beberapa model _switch_ atau _router_ mempunyai _port_ USB, _power_ dari _port_ ini dapat digunakan untuk menghidupkan _mini router_ dan _port_ USB dari _mini router_ dikoneksikan ke kabel _usb2serial_ dan kabel _console_. Apabila tidak ada _port_ USB, maka _power bank_ dapat digunakan untuk menghidupkan _mini router_.
 
 ![koneksi wireless console](images/wireless_console.jpg)
 
