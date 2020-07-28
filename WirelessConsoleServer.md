@@ -2,8 +2,8 @@
 
 Sebagai _network engineer_ pastinya anda mengenal kabel _console_ untuk melakukan konfigurasi. Kabel yang salah satu ujungnya mempunyai konektor DB9 _female_ dan satunya lagi bisa berupa RJ45 atau DB9 _male_ maupun _female_. Ini kabel wajib dipunyai oleh _network engineer_, biasanya disandingkan dengan kabel _usb2serial_ baik keluaran Bafo atau Aten.
 
-![rollover cable](https://en.wikipedia.org/wiki/File:CiscoConsoleCable.jpg)
-![usb-to-serial](https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/FTDI_USB_SERIAL.jpg/220px-FTDI_USB_SERIAL.jpg)
+![rollover cable](images/console.jpg)
+![usb-to-serial](images/usb2serial.jpg)
 
 Kadang-kadang saya tidak suka duduk dengan waktu yang lama di depan perangkat untuk melakukan konfigurasi. Saya lebih suka melakukannya di tempat yang nyaman dan penuh dengan cemilan. Ada beberapa _gadget_ yang bisa mengakomodasi kebutuhan ini, misalnya Airconsole, dengan harga yang cukup mahal. Harga yang cukup mahal ini membuat saya mencari alternatif lain yang akhirnya jatuh ke _mini router_ yang mendukung OpenWRT.
 
@@ -19,13 +19,13 @@ Beberapa model _switch_ atau _router_ mempunyai _port_ USB, _power_ dari _port_ 
 
 ## _Hardware_
 
-Pada awalnya pilihan saya jatuh ke TP-Link MR3020, tapi sejak versi _hardware_ 3.0 (pada saat itu OpenWRT belum mendukung) saya memilih GL.inet AR150. Saat ini OpenWRT sudah mendukung MR3020 versi 3.0, tapi sudah tidak dikembangkan lagi dengan _build_ terakhir versi 19.07 ([informasi di sini][1]). Bila anda tidak peduli dengan versi terakhir, MR3020 bisa digunakan sebagai pilihan karena lebih murah dibanding GL.inet.
+Pada awalnya pilihan saya jatuh ke TP-Link MR3020, tapi sejak versi _hardware_ 3.0 (pada saat itu OpenWRT belum mendukung) saya memilih GL.inet AR150. Saat ini OpenWRT sudah mendukung MR3020 versi 3.0, tapi sudah tidak dikembangkan lagi dengan _build_ terakhir versi 19.07 [informasi di sini][1]. Bila anda tidak peduli dengan versi terakhir, MR3020 bisa digunakan sebagai pilihan karena lebih murah dibanding GL.inet.
 
-![TP-Link MR3020](https://openwrt.org/_media/media/tplink/tl-mr3020/tl-mr3020.jpg?w=400&tok=8463df)
+![TP-Link MR3020](images/mr3020.jpg)
 
 Pilihan lain adalah GL.inet AR150, _mini router_ ini menjadi favorit saya karena selain sudah menggunakan OpenWRT terdapat 2 _port ethernet_ untuk LAN dan WAN. Sangat berguna apabila membutuhkan akses ke LAN dan WAN sekaligus.
 
-![GL.inet AR150](https://openwrt.org/_media/media/gl.inet/gl_ar150_case.jpg?w=200&tok=909b3e)
+![GL.inet AR150](images/ar150.jpg)
 
 
 ## _Software_
