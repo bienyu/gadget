@@ -53,7 +53,8 @@ Konfigurasi dilakukan di _file_ **/etc/ser2net.conf**, silakan gunakan _editor_ 
 ```BANNER:banner1:wireless console server port \p device \d \s \r\n
 2001:telnet:0:/dev/ttyUSB0:9600 1STOPBIT 8DATABITS banner1
 2002:telnet:0:/dev/ttyACM0:9600 1STOPBIT 8DATABITS banner1
-2003:telnet:0:/dev/ttyATH0:9600 1STOPBIT 8DATABITS banner1```
+2003:telnet:0:/dev/ttyATH0:9600 1STOPBIT 8DATABITS banner1
+```
 
 **BANNER** = digunakan untuk menampilkan pesan ketika terhubung ke console dengan nama `banner1`
 **2001** = _port_
