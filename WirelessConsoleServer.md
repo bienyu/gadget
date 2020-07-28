@@ -19,7 +19,7 @@ Beberapa model _switch_ atau _router_ mempunyai _port_ USB, _power_ dari _port_ 
 
 ## _Hardware_
 
-Pada awalnya pilihan saya jatuh ke TP-Link MR3020, tapi sejak versi _hardware_ 3.0 (pada saat itu OpenWRT belum mendukung) saya memilih GL.inet AR150. Saat ini OpenWRT sudah mendukung MR3020 versi 3.0, tapi sudah tidak dikembangkan lagi dengan _build_ terakhir versi 19.07 [informasi di sini][1]. Bila anda tidak peduli dengan versi terakhir, MR3020 bisa digunakan sebagai pilihan karena lebih murah dibanding GL.inet.
+Pada awalnya pilihan saya jatuh ke TP-Link MR3020, tapi sejak versi _hardware_ 3.0 (pada saat itu OpenWRT belum mendukung) saya memilih GL.inet AR150. Saat ini OpenWRT sudah mendukung MR3020 versi 3.0, tapi sudah tidak dikembangkan lagi dengan _build_ terakhir versi [19.07][1]. Bila anda tidak peduli dengan versi terakhir, MR3020 bisa digunakan sebagai pilihan karena lebih murah dibanding GL.inet.
 
 ![TP-Link MR3020](images/mr3020.jpg)
 
@@ -36,8 +36,8 @@ _Package_ [**ser2net**][2] digunakan untuk memfungsikan OpenWRT ini sebagai _con
 
 Selain _package_ **ser2net**, _driver_ untuk kabel _usb-to-serial_ harus di-_install_ juga. _Driver_ yang perlu di-_install_ tergantung dari _chipset_ kabel yang digunakan. Beberapa contoh yang bisa saya berikan ada di bawah.
 1. kmod-usb-acm, untuk Cisco mini USB (kabel mini USB biasa)
-2. kmod-usb-serial-ftdi, untuk _usb2serial_ dengan chipset FTDI
-3. kmod-usb-serial-pl2303, untuk _usb2serial_ dengan chipset PL2303
+2. kmod-usb-serial-ftdi, untuk _usb2serial_ dengan _chipset_ FTDI
+3. kmod-usb-serial-pl2303, untuk _usb2serial_ dengan _chipset_ PL2303
 
 Untuk mengecek apakah kabel sudah dikenali bisa dilakukan melalui OpenWRT dan jalankan perintah:
 
